@@ -1,4 +1,10 @@
+# directories
 build
-.class
 .gradle
-.MF
+.idea
+
+# file extensions
+*.class
+*.iml
+*.ipr
+*.MF
