@@ -1,9 +1,9 @@
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.7'
+    gradleVersion = '2.2.1'
 }
 
 subprojects {
     repositories {
-        mavenCentral()
+        jcenter()
     }
 }
