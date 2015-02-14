@@ -11,7 +11,7 @@ public class PersonServiceTest {
 	@Test
 	public void testJohnDoe() {
 		Person john = PersonService.getJohnDoe();
-		assertEquals(43, john.getAge());
+		assertEquals(42, john.getAge());
 		assertEquals("com.example.domain.Person(John, Doe, 42)", john.toString());
 		assertEquals(-2064776228, john.hashCode());
 	}
